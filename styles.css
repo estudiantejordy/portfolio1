@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.clase{
+    font-size: 20px;
+    color: #fff;
+    background-color: black;
+}
+@media (max-width: 767px){
+    .clase{
+        font-size: 22px;
+        color: rgb(255, 255, 255);
+    }
+}
+@media (min-width: 766px){
+    .clase{
+        font-size: 40px;
+        color: rgb(255, 255, 255);
+    }
+}
+.card-container{
+    margin: 5px;
+    width: 95%;
+}
+.card{
+    border: 4px dotted rgb(255, 255, 255);
+    border-radius: 5%;
+    padding: 5px;
+    height: 400px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image-container{
+    border: 4px dotted rgb(255, 0, 0);
+    border-radius: 5%;
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: center
+}
+.text{
+    color: white;
+    font-size: 25px;
+    width: 80%;
+    text-align: center;
+}
+.container-1{
+    display: flex;
+    background-color: black;
+}
+.container{
+    background-color: rgb(0, 0, 0);
+}
+ol,
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a i{
+    color: rgb(0, 0, 0);
+    font-size: 3em;
+    padding: 0.5em;
+}
+header nav ul{
+    display: flex;
+    gap: 2.0em;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: "Jaro", sans-serif;
+}
+header a nav ul li {
+    color: white;
+}
+main{
+    display: block;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma;
+    display: flex;
+    justify-content: center;
+}
+.acerca-de p{
+    display: flex;
+    justify-content: center;
+}
+.seccion-1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.seccion-2{
+    padding: 2em;
+    display: block;
+}
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-grid-item img {
+    width: 300px;
+}
+.photo-grid-item {
+    border: 5px solid #fff;
+    width: 300px;
+    height: 300px;
+}
+footer{
+    width: 100%;
+}
+div{
+    display: block;
+}
+h3{
+    font-size: 30px;
+    color: red;
+}
+nav p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma;
+}
+
+#Contactos{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    .card-container{
+        width: 45%;
+    }
+}
+/* Estilos para pantallas más grande (hasta 1024px) */
+@media (min-width: 1024px){
+    .card-container{
+        width: 30%;
+    }
+}
+
+
+.seccion-3{
+   background-color: w;
+}
+
+
+.titulo_seccion {
+    position: relative;
+    font-size: 40px;
+    color: #003750;
+    text-align: center;
+  }
+  .container {
+    background-color: xx;
+    max-width: XX; /* Define el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: XX; /* Agrega un poco de espacio alrededor del formulario */
+    border: XX; /* Agrega un borde al contenedor */
+    border-radius: XX; /* Agrega bordes redondeados al contenedor */
+  }
+  .form-group {
+    margin-bottom: 15px; /* Espacio entre cada input */
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+input[type="email"],
+textarea {
+  width: 50%; /* Define el ancho máximo del input */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+    justify-content: center;
+  }
+button:hover {
+    background-color: #0056b3;
+  }
+
+  #check {
+    display: none;
+}
+  /* MENU *
+#check {
+    display: none;
+}
+.checkbtn {
+    font-size: 30px;
+    color:#000000;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+.checkbtn {
+    display: block;
+}
+#encabezado  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #efefef;
+    text-align: center;
+
+    top:80px;
+    left: 100%;
+    transition: all;
+}
+#check:checked~ul {
+    left: 0%;
+    display: block;
+}
+#encabezado nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+#encabezado nav ul li a{
+    font-size: 30px;
+}
+#check:checked~.checkbtn{
+    color: #2c3e50;
+}
